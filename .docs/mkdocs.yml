@@ -1,10 +1,10 @@
-site_name: '"{{ name }}"'
-site_description: '"{{ description }}"'
+site_name: 'Conventional Commits Gradle Plugin'
+site_description: 'A Gradle Plugin to check if a commit fulfill conventional rules'
 site_author: 'Javier Segovia Córdoba'
 remote_branch: gh-pages
 
-repo_name: '"{{ repo }}"'
-repo_url: 'https://github.com/JavierSegoviaCordoba/"{{ repo }}"'
+repo_name: 'conventional-commits-gradle-plugin'
+repo_url: 'https://github.com/JavierSegoviaCordoba/conventional-commits-gradle-plugin'
 
 copyright: 'Copyright &copy; 2021 Javier Segovia Córdoba'
 
