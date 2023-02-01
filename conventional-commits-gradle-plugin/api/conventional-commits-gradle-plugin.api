@@ -1,0 +1,46 @@
+public final class com/javierscs/conventional/commits/gradle/plugin/Commit {
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;)Lcom/javierscs/conventional/commits/gradle/plugin/Commit;
+	public static synthetic fun copy$default (Lcom/javierscs/conventional/commits/gradle/plugin/Commit;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lcom/javierscs/conventional/commits/gradle/plugin/Commit;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBody ()Ljava/lang/String;
+	public final fun getContent ()Ljava/lang/String;
+	public final fun getDescription ()Ljava/lang/String;
+	public final fun getFooters ()Ljava/util/List;
+	public final fun getHash ()Ljava/lang/String;
+	public final fun getScope ()Ljava/lang/String;
+	public final fun getType ()Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public fun hashCode ()I
+	public final fun isBreakingChange ()Z
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/javierscs/conventional/commits/gradle/plugin/Commit$Type : java/lang/Enum {
+	public static final field Build Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field CI Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Chore Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Docs Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Feat Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Fix Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Perf Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Refactor Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Revert Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Style Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static final field Test Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public final fun getDescription ()Ljava/lang/String;
+	public fun toString ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+	public static fun values ()[Lcom/javierscs/conventional/commits/gradle/plugin/Commit$Type;
+}
+
+public final class com/javierscs/conventional/commits/gradle/plugin/ConventionalCommitsPlugin : com/javiersc/gradle/plugin/extensions/Plugin {
+	public fun <init> ()V
+	public synthetic fun apply (Ljava/lang/Object;)V
+	public fun apply (Lorg/gradle/api/Project;)V
+	public synthetic fun javaApply (Ljava/lang/Object;)V
+	public fun javaApply (Lorg/gradle/api/Project;)V
+	public synthetic fun kotlinApply (Ljava/lang/Object;)V
+}
+
